@@ -1,0 +1,100 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Noto+Sans+Mono:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Noto+Sans+Mono:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*FONTS*/
+
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+h1 {
+    font-family: 'Noto Sans Mono',cursive;
+    font-size: 2.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    font-family: 'Work Sans',cursive;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+.topic {
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+li {
+    margin-bottom: 5px;
+}
+
+
+/*Header*/
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-right: 80px;
+}
+.logotip{
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    word-spacing: -20px;
+    font-size: 80px;
+    color: rgb(39, 38, 100);
+    font-family: 'Noto Sans Mono',cursive;
+    font-weight:bold;
+}
+
+/*Options*/
+.Options{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    font-family: 'Work Sans' , cursive;
+    font-size: large;
+    font-weight:550;
+    justify-content: center;
+    margin-top: 70px;
+    letter-spacing: 2px;
+    margin-bottom: 150px;
+}
+.main,.wtester{
+    color: rgb(39, 38, 100);
+    text-decoration: none;
+}
+
+.main:hover{
+    filter: invert();
+    font-size: larger;
+    transition: 0.7s;
+    letter-spacing: 5px;
+}
+.main:not(:hover){
+    transition: 0.6s;
+}
+.wtester:hover{
+    filter: invert();
+    font-size: larger;
+    transition: 0.7s;
+    letter-spacing: 5px;
+}
+.wtester:not(:hover){
+    transition: 0.6s;
+}
